@@ -1,0 +1,104 @@
+/*body {
+	margin-top: 125px;  adjust this if the height of the menu bar changes 
+}*/
+
+.nav {
+	width: 550px;
+	margin-top: 2px;
+	background: #35495d;
+	text-align: right; /* this is a faux center fix for the nav options - adjust this if you wish to change the logo height or the font of the menu items */
+}
+.side-nav {
+	margin-top: 2px;
+	background: #f6f6f6;
+	text-align: left; /* this is a faux center fix for the nav options - adjust this if you wish to change the logo height or the font of the menu items */
+}
+.side-nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.side-nav > li {
+  position: relative;
+  display: block;
+  border-bottom: 1px solid #DDDDDD;
+  font-size: 12px;
+}
+.side-nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 10.6px;
+}
+.side-nav > li > a span{
+  padding-right: 3px;
+}
+.side-nav > li > a:hover,
+.side-nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eee;
+}
+.side-nav > li.disabled > a {
+  color: #999;
+}
+.side-nav > li.disabled > a:hover,
+.side-nav > li.disabled > a:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: not-allowed;
+  background-color: transparent;
+}
+.side-nav .open > a,
+.side-nav .open > a:hover,
+.side-nav .open > a:focus {
+  background-color: #eee;
+  border-color: #428bca;
+}
+.side-nav .nav-divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.side-nav > li > a > img {
+  max-width: none;
+}
+.side-nav-tabs {
+  border-bottom: 1px solid #ddd;
+}
+.side-nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.side-nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.428571429;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+}
+.side-nav-tabs > li > a:hover {
+  border-color: #eee #eee #ddd;
+}
+.side-nav-tabs > li.active > a,
+.side-nav-tabs > li.active > a:hover,
+.side-nav-tabs > li.active > a:focus {
+  color: #555;
+  cursor: default;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+.side-nav-tabs.nav-justified {
+  width: 100%;
+  border-bottom: 0;
+}
+.nav-tabs.nav-justified > li {
+  float: none;
+}
+.side-nav-tabs.nav-justified > li > a {
+  margin-bottom: 5px;
+  text-align: center;
+}
+.side-nav-tabs.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
